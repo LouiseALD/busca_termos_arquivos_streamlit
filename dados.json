@@ -1,38 +1,37 @@
 {
-    "empresa": "Tech Viz",
-    "projetos": [
-      {
-        "nome": "Análise de Sentimentos",
-        "status": "concluído",
-        "cliente": {
-          "nome": "ACME Corp",
-          "segmento": "Financeiro"
-        }
-      },
-      {
-        "nome": "Dashboard de RH",
-        "status": "em andamento",
-        "cliente": {
-          "nome": "Beta Ltda",
-          "segmento": "Recursos Humanos"
-        }
+  "empresa": "Empresa Exemplo",
+  "projetos": [
+    {
+      "nome": "Análise de Sentimentos",
+      "status": "concluído",
+      "cliente": {
+        "nome": "Cliente A",
+        "segmento": "Financeiro"
       }
+    },
+    {
+      "nome": "Dashboard Operacional",
+      "status": "em andamento",
+      "cliente": {
+        "nome": "Cliente B",
+        "segmento": "Recursos Humanos"
+      }
+    }
+  ],
+  "equipe": {
+    "lider": "Líder X",
+    "membros": [
+      "Membro 1",
+      "Membro 2",
+      "Membro 3"
     ],
-    "equipe": {
-      "lider": "Louise Aldrighi",
-      "membros": [
-        "Adla Viana",
-        "Carlos Silva",
-        "Fernanda Lopes"
-      ],
-      "tecnologias": {
-        "frontend": "FlutterFlow",
-        "backend": ["Python", "AWS Lambda", "DynamoDB"],
-        "IA": {
-          "modelo": "Claude 3",
-          "provedor": "Amazon Bedrock"
-        }
+    "tecnologias": {
+      "frontend": "FlutterFlow",
+      "backend": ["Python", "AWS Lambda", "DynamoDB"],
+      "IA": {
+        "modelo": "Modelo Genérico",
+        "provedor": "Provedor Y"
       }
     }
   }
-  
+}
