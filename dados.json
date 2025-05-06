@@ -27,7 +27,11 @@
     ],
     "tecnologias": {
       "frontend": "FlutterFlow",
-      "backend": ["Python", "AWS Lambda", "DynamoDB"],
+      "backend": [
+        "Python",
+        "AWS Lambda",
+        "DynamoDB"
+      ],
       "IA": {
         "modelo": "Modelo Genérico",
         "provedor": "Provedor Y"
