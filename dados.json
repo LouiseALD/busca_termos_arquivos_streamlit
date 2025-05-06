@@ -1,0 +1,38 @@
+{
+    "empresa": "Tech Viz",
+    "projetos": [
+      {
+        "nome": "Análise de Sentimentos",
+        "status": "concluído",
+        "cliente": {
+          "nome": "ACME Corp",
+          "segmento": "Financeiro"
+        }
+      },
+      {
+        "nome": "Dashboard de RH",
+        "status": "em andamento",
+        "cliente": {
+          "nome": "Beta Ltda",
+          "segmento": "Recursos Humanos"
+        }
+      }
+    ],
+    "equipe": {
+      "lider": "Louise Aldrighi",
+      "membros": [
+        "Adla Viana",
+        "Carlos Silva",
+        "Fernanda Lopes"
+      ],
+      "tecnologias": {
+        "frontend": "FlutterFlow",
+        "backend": ["Python", "AWS Lambda", "DynamoDB"],
+        "IA": {
+          "modelo": "Claude 3",
+          "provedor": "Amazon Bedrock"
+        }
+      }
+    }
+  }
+  
