@@ -1,0 +1,111 @@
+{
+  "aba": "Cópia de Página2",
+  "tabelas": [
+    {
+      "tipo": "conversaotal",
+      "tabela": "tb_fluxo",
+      "descritivoTabela": "Tabela fluxo de caixa",
+      "campos": [
+        {
+          "campo": "dt_sistema",
+          "tipoCampo": "cd_sistema_ (int)",
+          "tam": "-",
+          "nulo": "interface",
+          "base": "-",
+          "tabelaOrigem": "-",
+          "campoOrigem": "-",
+          "descricao": "-",
+          "ambiente": "dev",
+          "data": "-",
+          "responsavel": "-",
+          "bytes": "1.0"
+        },
+        {
+          "campo": "cd_caixa",
+          "tipoCampo": "varchar",
+          "tam": "-",
+          "nulo": "LZ /XZ",
+          "base": "mt_caixa",
+          "tabelaOrigem": "tb_caixa",
+          "campoOrigem": "ordem",
+          "descricao": "tal tal tl",
+          "ambiente": "prod",
+          "data": "-",
+          "responsavel": "-",
+          "bytes": "4.0"
+        }
+      ],
+      "bytesPorLinha": "5",
+      "indices": [
+        {
+          "nome": "ip_fluxocait(clustered )",
+          "campos": [
+            "dt_liq",
+            "id_user",
+            "cd_ordem..."
+          ]
+        },
+        {
+          "nome": "ip_fluxocai_1",
+          "campos": [
+            "tal",
+            "tal"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "conversaotal",
+      "tabela": "tb_comptuadores",
+      "descritivoTabela": "Tabela fluxo de computadores",
+      "campos": [
+        {
+          "campo": "dt_sistema",
+          "tipoCampo": "cd_sistema_ (int)",
+          "tam": "-",
+          "nulo": "interface",
+          "base": "-",
+          "tabelaOrigem": "-",
+          "campoOrigem": "-",
+          "descricao": "-",
+          "ambiente": "dev",
+          "data": "-",
+          "responsavel": "-",
+          "bytes": "1.0"
+        },
+        {
+          "campo": "cd_caixa",
+          "tipoCampo": "varchar",
+          "tam": "-",
+          "nulo": "LZ /XZ",
+          "base": "mt_caixa",
+          "tabelaOrigem": "tb_caixa",
+          "campoOrigem": "ordem",
+          "descricao": "tal tal tl",
+          "ambiente": "prod",
+          "data": "-",
+          "responsavel": "-",
+          "bytes": "4.0"
+        }
+      ],
+      "bytesPorLinha": "5",
+      "indices": [
+        {
+          "nome": "ip_fluxocait(clustered )",
+          "campos": [
+            "dt_liq",
+            "id_user",
+            "cd_ordem..."
+          ]
+        },
+        {
+          "nome": "ip_fluxocai_1",
+          "campos": [
+            "tal",
+            "tal"
+          ]
+        }
+      ]
+    }
+  ]
+}

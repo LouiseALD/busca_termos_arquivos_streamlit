@@ -1,0 +1,181 @@
+{
+    "aba": "Mapeamentos SAC-OC3",
+    "tabelas": [
+      {
+        "tipo": "conversao",
+        "tabela": "tb_fluxo",
+        "descritivoTabela": "Tabela fluxo de caixa",
+        "campos": [
+          {
+            "campo": "dt_sistema",
+            "tipoCampo": "datetime",
+            "tam": "-",
+            "nulo": "interface",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Data do sistema",
+            "ambiente": "dev",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "1.0"
+          },
+          {
+            "campo": "cd_caixa",
+            "tipoCampo": "varchar",
+            "tam": "50",
+            "nulo": "LZ /XZ",
+            "base": "mt_caixa",
+            "tabelaOrigem": "tb_caixa",
+            "campoOrigem": "ordem",
+            "descricao": "Código do caixa",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "4.0"
+          },
+          {
+            "campo": "vl_saldo",
+            "tipoCampo": "decimal(18,2)",
+            "tam": "-",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Valor do saldo",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "8.0"
+          }
+        ],
+        "bytesPorLinha": "13",
+        "indices": [
+          {
+            "nome": "ip_fluxocait(clustered)",
+            "campos": [
+              "dt_liq",
+              "id_user",
+              "cd_ordem"
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "conversao",
+        "tabela": "tb_computadores",
+        "descritivoTabela": "Tabela de computadores",
+        "campos": [
+          {
+            "campo": "id_computador",
+            "tipoCampo": "int",
+            "tam": "-",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "ID do computador",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "4.0"
+          },
+          {
+            "campo": "nm_computador",
+            "tipoCampo": "varchar",
+            "tam": "100",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Nome do computador",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "8.0"
+          },
+          {
+            "campo": "dt_aquisicao",
+            "tipoCampo": "date",
+            "tam": "-",
+            "nulo": "Yes",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Data de aquisição",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "3.0"
+          }
+        ],
+        "bytesPorLinha": "15",
+        "indices": [
+          {
+            "nome": "pk_computadores",
+            "campos": [
+              "id_computador"
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "conversao",
+        "tabela": "tb_usuarios",
+        "descritivoTabela": "Tabela de usuários",
+        "campos": [
+          {
+            "campo": "id_usuario",
+            "tipoCampo": "int",
+            "tam": "-",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "ID do usuário",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "4.0"
+          },
+          {
+            "campo": "nm_usuario",
+            "tipoCampo": "varchar",
+            "tam": "100",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Nome do usuário",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "8.0"
+          },
+          {
+            "campo": "dt_cadastro",
+            "tipoCampo": "date",
+            "tam": "-",
+            "nulo": "No",
+            "base": "-",
+            "tabelaOrigem": "-",
+            "campoOrigem": "-",
+            "descricao": "Data de cadastro",
+            "ambiente": "prod",
+            "data": "-",
+            "responsavel": "-",
+            "bytes": "3.0"
+          }
+        ],
+        "bytesPorLinha": "15",
+        "indices": [
+          {
+            "nome": "pk_usuarios",
+            "campos": [
+              "id_usuario"
+            ]
+          }
+        ]
+      }
+    ]
+  }
